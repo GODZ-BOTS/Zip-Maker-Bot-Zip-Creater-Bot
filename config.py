@@ -25,7 +25,7 @@ class RoxyBotConfig:
     # Bot Configuration
     ROXYBOT_API_ID = int(os.environ.get("API_ID", "21769517"))
     ROXYBOT_API_HASH = os.environ.get("API_HASH", "a18bca05e643355610f88e15425287a7")
-    ROXYBOT_BOT_TOKEN = os.environ.get("BOT_TOKEN", "8093581825:AAG55dXMkqfR2xqAp_u9KGAR7pGwL41MbJ0")
+    ROXYBOT_BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     
     # MongoDB Configuration
     ROXYBOT_MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://gxmon239:f4l7bKrhka3Fh2cV@cluster0.qmblwql.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
